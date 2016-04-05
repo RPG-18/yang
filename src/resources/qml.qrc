@@ -1,0 +1,8 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>wall-paper.jpg</file>
+        <file>Nonogram.qml</file>
+        <file>MandarinC.ttf</file>
+    </qresource>
+</RCC>
