@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.3)
-project(yajc)
+project(yang)
 
 option(TEST_ENABLE "enable tests" OFF)
 
