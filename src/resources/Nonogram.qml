@@ -1,14 +1,8 @@
 import QtQuick 2.5
 
-Image {
-
-    height: 1280
-    width: 1280
-    asynchronous: true
-    fillMode: Image.PreserveAspectCrop
+Item {
     clip:true
-    source:"qrc:/wall-paper.jpg"
-
+    property int margin: 20
     property int fontSize:  12
     property int ceilSize:  20;
     property int incCeilSize: ceilSize + 1
@@ -18,6 +12,22 @@ Image {
 
     property int column:     0;
     property int columnSize: 0;
+
+
+    implicitHeight : crossGrid.height+margin*2
+    implicitWidth : crossGrid.width+margin*2
+
+    Image{
+        asynchronous: true
+        /*
+        sourceSize.width: parent.width
+        sourceSize.height: parent.height
+        */
+
+        fillMode: Image.PreserveAspectCrop
+        source:"qrc:/wall-paper.jpg"
+    }
+
 
     function loadFromNonogramsOrg(url) {
         crossword.formNanogramsOrg(url);
@@ -43,17 +53,11 @@ Image {
         hRepeater.model = crossword.columnSize()*csize.column();
         rRepeater.model = crossword.rowSize()*csize.rows();
 
-        nanogramFlick.visible = true;
+
     }
 
-    Flickable {
-        id: nanogramFlick
-        visible: false
-        anchors.fill: parent
-        width: parent.width; height: parent.height
-        contentWidth: crossGrid.width; contentHeight: crossGrid.height
-
         Grid {
+            anchors.centerIn: parent
             id: crossGrid
             columns: 2
             spacing: 2
@@ -220,7 +224,6 @@ Image {
                 }
             }
         }
-    }
 
     Connections {
         target: crossword

@@ -77,14 +77,17 @@ ApplicationWindow {
         }
     }
 
-    Nonogram {
-        id: nonogramField
-        ceilSize: 25
-        fontSize: 18
-        visible: true
-        anchors.fill: parent
-        width: parent.width;
+    Flickable{
         height: parent.height
+        width: parent.width
+        contentWidth:nonogramField.width
+        contentHeight:nonogramField.height
 
+        Nonogram {
+            id: nonogramField
+            ceilSize: 25
+            fontSize: 18
+            visible: true
+        }
     }
 }
