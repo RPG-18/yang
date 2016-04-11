@@ -3,6 +3,7 @@
 #include <memory>
 
 class Crossword;
+class CrosswordModel;
 class QQmlApplicationEngine;
 
 class Application
@@ -14,6 +15,7 @@ public:
 private:
 
     Crossword* m_crossword;
+    CrosswordModel* m_crossModel;
     std::shared_ptr<QQmlApplicationEngine> m_engine;
 };
 
