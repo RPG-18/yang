@@ -39,6 +39,9 @@ Item {
         if(csize.column() === 0 || csize.rows() === 0){
             return;
         }
+        console.log(csize.column() + "x" + csize.rows());
+        hRepeater.model = 0;
+        rRepeater.model = 0;
 
         rowSize = crossword.rowSize();
         columnSize = crossword.columnSize();
