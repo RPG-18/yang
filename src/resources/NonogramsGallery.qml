@@ -42,46 +42,48 @@ ListView {
 
                 Text {
                     text: qsTr("Date")
-                    font.family: mandarinFont.name
+                    font.family: hanZiFont.name
                     font.pixelSize: view.labelFontPixelSize
                 }
 
                 Text {
                     text:  date;
-                    font.family: mandarinFont.name
+                    font.family:  hanZiFont.name
                     font.pixelSize: view.labelFontPixelSize
                 }
 
                 Text {
                     text: qsTr("Name")
-                    font.family: mandarinFont.name
+                    font.family:  hanZiFont.name
                     font.pixelSize: view.labelFontPixelSize
                 }
 
                 Text {
                     text: name
+                    font.family:  hanZiFont.name
                     font.pixelSize: view.labelFontPixelSize
                 }
 
                 Text {
                     text: qsTr("Author")
-                    font.family: mandarinFont.name
+                    font.family: hanZiFont.name
                     font.pixelSize: view.labelFontPixelSize
                 }
                 Text{
                     text: author
+                    font.family:  hanZiFont.name
                     font.pixelSize: view.labelFontPixelSize
                 }
 
                 Text {
                     text: qsTr("Size")
-                    font.family: mandarinFont.name
+                    font.family: hanZiFont.name
                     font.pixelSize: view.labelFontPixelSize
                 }
 
                 Text {
                     text: size
-                    font.family: mandarinFont.name
+                    font.family: hanZiFont.name
                     font.pixelSize: view.labelFontPixelSize
                 }
             }

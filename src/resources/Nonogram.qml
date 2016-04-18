@@ -6,6 +6,7 @@ Item {
     property int fontSize:  12
     property int ceilSize:  20;
     property int incCeilSize: ceilSize + 1
+    property color borderColor: "#424242"
 
     property int rows:       0;
     property int rowSize:    0;
@@ -20,7 +21,8 @@ Item {
         id: bgImg
         asynchronous: true
         visible: false
-        fillMode: Image.PreserveAspectCrop
+        height: parent.height
+        width: parent.width
         source:"qrc:/wall-paper.jpg"
     }
 
@@ -68,6 +70,7 @@ Item {
             width: rowSize * ceilSize
             height:columnSize * ceilSize
             border.width: 1
+            border.color: borderColor
             color: "transparent"
         }
 
@@ -91,6 +94,7 @@ Item {
                         width:  (pcm % 5 == 0)  ? ceilSize : incCeilSize
                         color: "transparent"
                         border.width: 1
+                        border.color: borderColor
                         Text {
                             anchors.centerIn: parent
                             text:showOnlyNaturalNumber(
@@ -127,6 +131,8 @@ Item {
                         color: "transparent"
 
                         border.width: 1
+                        border.color: borderColor
+
                         Text {
                             anchors.centerIn: parent
                             text:showOnlyNaturalNumber(
@@ -145,6 +151,7 @@ Item {
             width: column * ceilSize
             height:rows   * ceilSize
             border.width: 1
+            border.color: borderColor
             color: "transparent"
 
             Grid{
@@ -166,6 +173,7 @@ Item {
                             width: (cn+1) % 5 == 0  ? ceilSize : incCeilSize
                             color: "transparent"
                             border.width: 1
+                            border.color: borderColor
                         }
 
                         Text{
@@ -217,6 +225,20 @@ Item {
                     }
                 }
             }
+        }
+    }
+
+    Text{
+        anchors{
+            right: parent.right
+            rightMargin: 10
+            bottom: parent.bottom
+        }
+        text:qsTr("Source: ")+"wwww.nonograms.ru"
+
+        font{
+            family: hanZiFont.name
+            pixelSize: 12
         }
     }
 

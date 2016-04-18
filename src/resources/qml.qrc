@@ -6,5 +6,6 @@
         <file>MandarinC.ttf</file>
         <file>lotos.jpg</file>
         <file>NonogramsGallery.qml</file>
+        <file>HanZi.ttf</file>
     </qresource>
 </RCC>

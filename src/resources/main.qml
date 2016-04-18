@@ -21,12 +21,18 @@ ApplicationWindow {
         source: "qrc:/MandarinC.ttf"
     }
 
+    FontLoader {
+        id: hanZiFont;
+        source: "qrc:/HanZi.ttf"
+    }
+
     header: ToolBar {
+        id: topToolBar
         RowLayout {
             anchors.fill: parent
             ToolButton {
                 text: "Open"
-                font.family: mandarinFont.name
+                font.family: hanZiFont.name
                 font.pointSize: 20
                 onClicked: drwr.open()
             }
@@ -34,7 +40,7 @@ ApplicationWindow {
 
         Text{
             anchors.centerIn: parent
-            font.family: mandarinFont.name
+            font.family: hanZiFont.name
             font.pointSize: 20
             text:"Yet Another NonoGrams"
         }
@@ -42,8 +48,7 @@ ApplicationWindow {
 
     Item{
         id: game
-        width: app.width
-        height: app.height
+        anchors.fill: parent
 
         Drawer{
             id: drwr
@@ -51,14 +56,13 @@ ApplicationWindow {
 
             ToolBar{
                 height:app.height
-                width: 120
 
                 ColumnLayout{
                     width: parent.width
                     ToolButton{
                         text:"Small"
-                        font.family: mandarinFont.name
-                        font.pointSize: 20
+                        font.family: hanZiFont.name
+                        font.pointSize: 16
                         onClicked: {
                             game.state = "ShowGallery";
                             crosswords.source = "http://www.nonograms.ru/nonograms/size/small";
@@ -67,8 +71,8 @@ ApplicationWindow {
                     }
                     ToolButton{
                         text:"Medium"
-                        font.family: mandarinFont.name
-                        font.pointSize: 20
+                        font.family: hanZiFont.name
+                        font.pointSize: 16
                         onClicked:{
                             game.state = "ShowGallery";
                             crosswords.source = "http://www.nonograms.ru/nonograms/size/medium";
@@ -77,8 +81,8 @@ ApplicationWindow {
                     }
                     ToolButton{
                         text:"Large"
-                        font.family: mandarinFont.name
-                        font.pointSize: 20
+                        font.family: hanZiFont.name
+                        font.pointSize: 16
                         onClicked: {
                             game.state = "ShowGallery";
                             crosswords.source = "http://www.nonograms.ru/nonograms/size/large";
@@ -115,14 +119,15 @@ ApplicationWindow {
             id: crossFlick
             height: parent.height
             width: parent.width
-            contentWidth:nonogramField.width
-            contentHeight:nonogramField.height
-            ScrollIndicator.vertical: ScrollIndicator {
+            contentWidth:flickableItem.width
+            contentHeight:flickableItem.height
+            ScrollBar.vertical: ScrollBar {
             }
-            ScrollIndicator.horizontal: ScrollIndicator {
+            ScrollBar.horizontal: ScrollBar {
             }
 
             Item{
+                id: flickableItem
                 implicitWidth: Math.max(nonogramField.width, app.width)
                 implicitHeight: Math.max(nonogramField.height, app.height)
 
@@ -134,8 +139,8 @@ ApplicationWindow {
                     visible: true
                 }
             }
-        }
 
+        }
         states: [
             State {
                 name: "ShowGallery"
