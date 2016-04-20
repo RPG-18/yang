@@ -7,5 +7,6 @@
         <file>lotos.jpg</file>
         <file>NonogramsGallery.qml</file>
         <file>HanZi.ttf</file>
+        <file>paper.jpg</file>
     </qresource>
 </RCC>

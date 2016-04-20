@@ -16,6 +16,8 @@ ApplicationWindow {
     property int gridRows: 4
     property int gridCellHeight: app.height/gridRows
 
+    property bool loadingCrossword: false
+
     FontLoader {
         id: mandarinFont;
         source: "qrc:/MandarinC.ttf"
@@ -106,11 +108,12 @@ ApplicationWindow {
             model:crosswords
             height: parent.height
             width: parent.width
+            //labelFontPixelSize: 16
 
             onOpenNonogram:{
-                nonogramField.loadFromNonogramsOrg(itemUrl);
-                console.log(itemUrl);
+                loadingCrossword = true;
                 game.state = 'InGame';
+                nonogramField.loadFromNonogramsOrg(itemUrl);
             }
         }
 
@@ -141,6 +144,19 @@ ApplicationWindow {
             }
 
         }
+
+        Connections {
+            target: crossword
+            onLoaded: {
+                loadingCrossword = false;
+            }
+        }
+
+        BusyIndicator {
+            anchors.centerIn: parent
+            running: loadingCrossword
+        }
+
         states: [
             State {
                 name: "ShowGallery"

@@ -1,23 +1,23 @@
 #include <QtCore/QTimer>
 #include <QtCore/QEventLoop>
-#include <QtWebEngineWidgets/QWebEngineView>
+#include <QtWebEngineWidgets/QWebEnginePage>
 
 #include "Utils.h"
 
 QString getHtml(const QUrl& url)
 {
-    QWebEngineView view;
+    QWebEnginePage page;
 
     QEventLoop loop;
-    QObject::connect(&view, &QWebEngineView::loadFinished,
+    QObject::connect(&page, &QWebEnginePage::loadFinished,
                      &loop, &QEventLoop::quit);
-    view.load(url);
+    page.load(url);
     loop.exec();
 
     QTimer::singleShot(1000, &loop, &QEventLoop::quit);
     QString html;
 
-    view.page()->toHtml([&html, &loop](const QString& data){
+    page.toHtml([&html, &loop](const QString& data){
         html = data;
         loop.quit();
     });

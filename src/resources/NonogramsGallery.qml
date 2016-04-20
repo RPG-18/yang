@@ -5,8 +5,8 @@ import Qt.labs.controls 1.0
 ListView {
     id:view
 
-    property int itemHeight: 160
-    property int maxIconHeight: 150
+    property int itemHeight: 170
+    property int maxIconHeight: 120
     property int labelFontPixelSize: 18
     signal openNonogram(url itemUrl)
 
@@ -17,83 +17,97 @@ ListView {
         width:  app.width
         height: view.itemHeight
 
-        RowLayout {
-            id: content
-            spacing: 6
+        Image {
+            id: name
+            anchors.centerIn: parent
+            width: parent.width*0.98
+            height: parent.height*0.98
+            source: "qrc:/paper.jpg"
+            asynchronous: true
+        }
+
+        ColumnLayout{
             anchors.fill: parent
-
-            Item{
-                Layout.minimumWidth: 50
-                Layout.maximumWidth: 50
+            Text {
+                Layout.alignment: Qt.AlignCenter
+                text: nonogram;
+                font.family:  hanZiFont.name
+                font.pixelSize: view.labelFontPixelSize
             }
 
-            Image {
-                source:icon
-                Layout.maximumHeight: view.maxIconHeight
-                fillMode: Image.PreserveAspectFit
-                asynchronous: true
-            }
-
-            GridLayout {
+            RowLayout {
+                id: content
+                spacing: 6
                 Layout.fillWidth: true
                 Layout.fillHeight: true
-                Layout.alignment: Qt.AlignVCenter
-                columns: 4
 
-                Text {
-                    text: qsTr("Date")
-                    font.family: hanZiFont.name
-                    font.pixelSize: view.labelFontPixelSize
+
+                Item{
+                    Layout.minimumWidth: 50
+                    Layout.maximumWidth: 50
                 }
 
-                Text {
-                    text:  date;
-                    font.family:  hanZiFont.name
-                    font.pixelSize: view.labelFontPixelSize
+                Image {
+                    source:icon
+                    Layout.maximumHeight: view.maxIconHeight
+                    fillMode: Image.PreserveAspectFit
+                    asynchronous: true
                 }
 
-                Text {
-                    text: qsTr("Name")
-                    font.family:  hanZiFont.name
-                    font.pixelSize: view.labelFontPixelSize
-                }
+                GridLayout {
+                    Layout.fillWidth: true
+                    Layout.fillHeight: true
+                    columns: 2
 
-                Text {
-                    text: name
-                    font.family:  hanZiFont.name
-                    font.pixelSize: view.labelFontPixelSize
-                }
+                    Text {
+                        text: qsTr("Author")
+                        font.family: hanZiFont.name
+                        font.pixelSize: view.labelFontPixelSize
+                    }
+                    Text{
+                        text: author
+                        font.family:  hanZiFont.name
+                        font.pixelSize: view.labelFontPixelSize
+                    }
 
-                Text {
-                    text: qsTr("Author")
-                    font.family: hanZiFont.name
-                    font.pixelSize: view.labelFontPixelSize
-                }
-                Text{
-                    text: author
-                    font.family:  hanZiFont.name
-                    font.pixelSize: view.labelFontPixelSize
-                }
+                    Text {
+                        text: qsTr("Size")
+                        font.family: hanZiFont.name
+                        font.pixelSize: view.labelFontPixelSize
+                    }
 
-                Text {
-                    text: qsTr("Size")
-                    font.family: hanZiFont.name
-                    font.pixelSize: view.labelFontPixelSize
-                }
-
-                Text {
-                    text: size
-                    font.family: hanZiFont.name
-                    font.pixelSize: view.labelFontPixelSize
+                    Text {
+                        text: size
+                        font.family: hanZiFont.name
+                        font.pixelSize: view.labelFontPixelSize
+                    }
                 }
             }
+        }
 
-            Button{
-                text:"Go"
+        Text {
+            anchors{
+                right: parent.right
+                bottom:parent.bottom
+                margins: 20
+            }
 
-                onClicked:{
-                    openNonogram(url);
-                }
+            text:  date;
+            font.family:  hanZiFont.name
+            font.pixelSize: view.labelFontPixelSize
+        }
+
+        Button{
+            text:"Go"
+
+            anchors{
+                right: parent.right
+                verticalCenter: parent.verticalCenter
+                margins: 20
+            }
+
+            onClicked:{
+                openNonogram(url);
             }
         }
     }

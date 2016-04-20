@@ -64,7 +64,7 @@ QHash<int, QByteArray> CrosswordModel::roleNames() const
         {SIZE,  "size"},
         {AUTHOR,"author"},
         {ICON,  "icon"},
-        {NAME,  "name"}
+        {NAME,  "nonogram"}
     };
 
     return roles;

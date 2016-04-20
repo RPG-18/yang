@@ -1,4 +1,5 @@
 import QtQuick 2.5
+import Qt.labs.controls 1.0
 
 Item {
     clip:true
@@ -17,17 +18,10 @@ Item {
     implicitHeight : crossGrid.height+margin*2
     implicitWidth : crossGrid.width+margin*2
 
-    Image{
-        id: bgImg
-        asynchronous: true
-        visible: false
-        height: parent.height
-        width: parent.width
-        source:"qrc:/wall-paper.jpg"
-    }
 
 
     function loadFromNonogramsOrg(url) {
+        console.log("Load:"+url);
         crossword.formNanogramsOrg(url);
     }
 
@@ -54,7 +48,16 @@ Item {
         hRepeater.model = crossword.columnSize()*csize.column();
         rRepeater.model = crossword.rowSize()*csize.rows();
         bgImg.visible = true;
+    }
 
+
+    Image{
+        id: bgImg
+        asynchronous: true
+        visible: false
+        height: parent.height
+        width: parent.width
+        source:"qrc:/wall-paper.jpg"
     }
 
     Grid {
@@ -229,6 +232,7 @@ Item {
     }
 
     Text{
+        visible: bgImg.visible
         anchors{
             right: parent.right
             rightMargin: 10
