@@ -18,8 +18,6 @@ Item {
     implicitHeight : crossGrid.height+margin*2
     implicitWidth : crossGrid.width+margin*2
 
-
-
     function loadFromNonogramsOrg(url) {
         console.log("Load:"+url);
         crossword.formNanogramsOrg(url);
@@ -50,7 +48,6 @@ Item {
         bgImg.visible = true;
     }
 
-
     Image{
         id: bgImg
         asynchronous: true
@@ -61,8 +58,8 @@ Item {
     }
 
     Grid {
-        anchors.centerIn: parent
         id: crossGrid
+        anchors.centerIn: parent
         columns: 2
         spacing: 2
         rowSpacing: 0
@@ -98,6 +95,7 @@ Item {
                         color: "transparent"
                         border.width: 1
                         border.color: borderColor
+
                         Text {
                             anchors.centerIn: parent
                             text:showOnlyNaturalNumber(
@@ -107,6 +105,7 @@ Item {
                                 pixelSize: fontSize
                             }
                         }
+
                     }
                 }
             }
@@ -132,7 +131,6 @@ Item {
                         width:  (pcn % 5 == 0) || (pcn == rowSize)
                                 ? ceilSize : incCeilSize
                         color: "transparent"
-
                         border.width: 1
                         border.color: borderColor
 
@@ -151,6 +149,7 @@ Item {
         }
 
         Rectangle{
+            id: playingField
             width: column * ceilSize
             height:rows   * ceilSize
             border.width: 1
@@ -238,7 +237,7 @@ Item {
             rightMargin: 10
             bottom: parent.bottom
         }
-        text:qsTr("Source: ")+"wwww.nonograms.ru"
+        text:qsTr("Source: ")+"www.nonograms.ru"
 
         font{
             family: hanZiFont.name

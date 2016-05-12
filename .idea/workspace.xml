@@ -9,11 +9,12 @@
       <config projectName="yajc" targetName="yang_automoc" />
       <config projectName="yajc" targetName="ui" />
       <config projectName="yajc" targetName="resources" />
+      <config projectName="yajc" targetName="gumbo-parser" />
+      <config projectName="yajc" targetName="yang" />
+      <config projectName="yang" targetName="yang" />
       <config projectName="yajc" targetName="gumbo-parser_automoc" />
       <config projectName="yajc" targetName="core" />
-      <config projectName="yajc" targetName="gumbo-parser" />
       <config projectName="yajc" targetName="parsers_automoc" />
-      <config projectName="yajc" targetName="yang" />
     </generated>
   </component>
   <component name="CMakeSettings" AUTO_RELOAD="false" GENERATION_PASS_SYSTEM_ENVIRONMENT="true">
@@ -23,15 +24,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ca7017e7-cd47-464f-af17-decec1b042b3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/resources/paper.jpg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Utils.cpp" afterPath="$PROJECT_DIR$/src/Utils.cpp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/core/Crossword.cpp" afterPath="$PROJECT_DIR$/src/core/Crossword.cpp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/yang.iml" afterPath="$PROJECT_DIR$/.idea/yang.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/resources/Nonogram.qml" afterPath="$PROJECT_DIR$/src/resources/Nonogram.qml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/resources/NonogramsGallery.qml" afterPath="$PROJECT_DIR$/src/resources/NonogramsGallery.qml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/resources/main.qml" afterPath="$PROJECT_DIR$/src/resources/main.qml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/resources/qml.qrc" afterPath="$PROJECT_DIR$/src/resources/qml.qrc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ui/CrosswordModel.cpp" afterPath="$PROJECT_DIR$/src/ui/CrosswordModel.cpp" />
     </list>
     <ignored path="yang.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -52,42 +48,105 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Crossword.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/core/Crossword.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="381">
-              <caret line="52" column="4" selection-start-line="52" selection-start-column="4" selection-end-line="52" selection-end-column="4" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Utils.cpp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Utils.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CrosswordModel.h" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/ui/CrosswordModel.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="471">
-              <caret line="72" column="19" selection-start-line="72" selection-start-column="9" selection-end-line="72" selection-end-column="19" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="CrosswordModel.cpp" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/ui/CrosswordModel.cpp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
-              <caret line="66" column="25" selection-start-line="66" selection-start-column="17" selection-end-line="66" selection-end-column="25" />
-              <folding />
+      <file leaf-file-name="part1.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/habr/part1.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="254">
+                <caret line="540" column="3" selection-start-line="540" selection-start-column="3" selection-end-line="540" selection-end-column="3" />
+                <folding>
+                  <marker date="1463085697032" expanded="true" signature="1225:1287" placeholder="[...]" />
+                  <marker date="1463085697032" expanded="true" signature="3184:3499" placeholder="{...}" />
+                  <marker date="1463085697032" expanded="true" signature="3184:3592" placeholder="{...}" />
+                  <marker date="1463085697032" expanded="true" signature="3184:3617" placeholder="{...}" />
+                  <marker date="1463085697032" expanded="true" signature="3184:3619" placeholder="{...}" />
+                  <marker date="1463085697032" expanded="true" signature="3184:3620" placeholder="{...}" />
+                  <marker date="1463085697032" expanded="true" signature="3184:3624" placeholder="{...}" />
+                  <marker date="1463085697032" expanded="true" signature="3297:3306" placeholder="/*...*/" />
+                  <marker date="1463085697032" expanded="true" signature="3317:3487" placeholder="{...}" />
+                  <marker date="1463085697032" expanded="true" signature="3602:3611" placeholder="/*...*/" />
+                  <marker date="1463085697032" expanded="true" signature="3750:4072" placeholder="{...}" />
+                  <marker date="1463085697032" expanded="true" signature="3750:4090" placeholder="{...}" />
+                  <marker date="1463085697032" expanded="true" signature="3750:4126" placeholder="{...}" />
+                  <marker date="1463085697032" expanded="true" signature="3750:4148" placeholder="{...}" />
+                  <marker date="1463085697032" expanded="true" signature="3750:4191" placeholder="{...}" />
+                  <marker date="1463085697032" expanded="true" signature="3750:4197" placeholder="{...}" />
+                  <marker date="1463085697032" expanded="true" signature="3876:4018" placeholder="{...}" />
+                  <marker date="1463085697032" expanded="true" signature="4008:4017" placeholder="/*...*/" />
+                  <marker date="1463085697032" expanded="true" signature="4025:4072" placeholder="{...}" />
+                  <marker date="1463085697032" expanded="true" signature="4062:4071" placeholder="/*...*/" />
+                  <marker date="1463085697032" expanded="true" signature="4079:4090" placeholder="{...}" />
+                  <marker date="1463085697032" expanded="true" signature="4116:4125" placeholder="/*...*/" />
+                  <marker date="1463085697032" expanded="true" signature="4133:4148" placeholder="{...}" />
+                  <marker date="1463085697032" expanded="true" signature="4181:4190" placeholder="/*...*/" />
+                  <marker date="1463085697032" expanded="true" signature="4408:5089" placeholder="{...}" />
+                  <marker date="1463085697032" expanded="true" signature="4479:5087" placeholder="{...}" />
+                  <marker date="1463085697032" expanded="true" signature="4511:4520" placeholder="/*...*/" />
+                  <marker date="1463085697032" expanded="true" signature="4534:5081" placeholder="{...}" />
+                  <marker date="1463085697032" expanded="true" signature="4603:5071" placeholder="{...}" />
+                  <marker date="1463085697032" expanded="true" signature="4803:5057" placeholder="{...}" />
+                  <marker date="1463085697032" expanded="true" signature="4910:5039" placeholder="{...}" />
+                  <marker date="1463085697032" expanded="true" signature="5897:7418" placeholder="{...}" />
+                  <marker date="1463085697032" expanded="true" signature="6082:6309" placeholder="{...}" />
+                  <marker date="1463085697032" expanded="true" signature="6319:6589" placeholder="{...}" />
+                  <marker date="1463085697032" expanded="true" signature="6605:6920" placeholder="{...}" />
+                  <marker date="1463085697032" expanded="true" signature="6655:6914" placeholder="{...}" />
+                  <marker date="1463085697032" expanded="true" signature="6698:6754" placeholder="{...}" />
+                  <marker date="1463085697032" expanded="true" signature="6787:6842" placeholder="{...}" />
+                  <marker date="1463085697032" expanded="true" signature="6846:6903" placeholder="{...}" />
+                  <marker date="1463085697032" expanded="true" signature="6934:7037" placeholder="[...]" />
+                  <marker date="1463085697032" expanded="true" signature="6949:7037" placeholder="{&quot;name&quot;: &quot;SHADED&quot;...}" />
+                  <marker date="1463085697032" expanded="true" signature="7005:7037" placeholder="{...}" />
+                  <marker date="1463085697032" expanded="true" signature="7097:7160" placeholder="{...}" />
+                  <marker date="1463085697032" expanded="true" signature="7185:7410" placeholder="{...}" />
+                  <marker date="1463085697032" expanded="true" signature="7240:7309" placeholder="{...}" />
+                  <marker date="1463085697032" expanded="true" signature="7338:7400" placeholder="{...}" />
+                  <marker date="1463085697032" expanded="true" signature="7849:15735" placeholder="{...}" />
+                  <marker date="1463085697032" expanded="true" signature="8304:8386" placeholder="{...}" />
+                  <marker date="1463085697032" expanded="true" signature="8432:8474" placeholder="{...}" />
+                  <marker date="1463085697032" expanded="true" signature="8504:9053" placeholder="{...}" />
+                  <marker date="1463085697032" expanded="true" signature="8596:8627" placeholder="{...}" />
+                  <marker date="1463085697032" expanded="true" signature="9064:9234" placeholder="{...}" />
+                  <marker date="1463085697032" expanded="true" signature="9245:15319" placeholder="{...}" />
+                  <marker date="1463085697032" expanded="true" signature="9405:9620" placeholder="{...}" />
+                  <marker date="1463085697032" expanded="true" signature="9635:10892" placeholder="{...}" />
+                  <marker date="1463085697032" expanded="true" signature="9738:10882" placeholder="{...}" />
+                  <marker date="1463085697032" expanded="true" signature="9816:10868" placeholder="{...}" />
+                  <marker date="1463085697032" expanded="true" signature="10114:10850" placeholder="{...}" />
+                  <marker date="1463085697032" expanded="true" signature="10449:10827" placeholder="{...}" />
+                  <marker date="1463085697032" expanded="true" signature="10660:10801" placeholder="{...}" />
+                  <marker date="1463085697032" expanded="true" signature="10907:12183" placeholder="{...}" />
+                  <marker date="1463085697032" expanded="true" signature="11005:12173" placeholder="{...}" />
+                  <marker date="1463085697032" expanded="true" signature="11083:12159" placeholder="{...}" />
+                  <marker date="1463085697032" expanded="true" signature="11383:12141" placeholder="{...}" />
+                  <marker date="1463085697032" expanded="true" signature="11744:12119" placeholder="{...}" />
+                  <marker date="1463085697032" expanded="true" signature="11952:12093" placeholder="{...}" />
+                  <marker date="1463085697032" expanded="true" signature="12202:15313" placeholder="{...}" />
+                  <marker date="1463085697032" expanded="true" signature="12423:15303" placeholder="{...}" />
+                  <marker date="1463085697032" expanded="true" signature="12508:15289" placeholder="{...}" />
+                  <marker date="1463085697032" expanded="true" signature="12610:15271" placeholder="{...}" />
+                  <marker date="1463085697032" expanded="true" signature="12915:13282" placeholder="{...}" />
+                  <marker date="1463085697032" expanded="true" signature="13312:13782" placeholder="{...}" />
+                  <marker date="1463085697032" expanded="true" signature="13818:14353" placeholder="{...}" />
+                  <marker date="1463085697032" expanded="true" signature="13908:14327" placeholder="{...}" />
+                  <marker date="1463085697032" expanded="true" signature="13971:14067" placeholder="{...}" />
+                  <marker date="1463085697032" expanded="true" signature="14100:14195" placeholder="{...}" />
+                  <marker date="1463085697032" expanded="true" signature="14199:14296" placeholder="{...}" />
+                  <marker date="1463085697032" expanded="true" signature="14387:14570" placeholder="[...]" />
+                  <marker date="1463085697032" expanded="true" signature="14422:14570" placeholder="{&quot;name&quot;: &quot;SHADED&quot;...}" />
+                  <marker date="1463085697032" expanded="true" signature="14518:14570" placeholder="{...}" />
+                  <marker date="1463085697032" expanded="true" signature="14670:14773" placeholder="{...}" />
+                  <marker date="1463085697032" expanded="true" signature="14838:15223" placeholder="{...}" />
+                  <marker date="1463085697032" expanded="true" signature="14933:15042" placeholder="{...}" />
+                  <marker date="1463085697032" expanded="true" signature="15091:15193" placeholder="{...}" />
+                  <marker date="1463085697032" expanded="true" signature="15329:15623" placeholder="{...}" />
+                  <marker date="1463085697032" expanded="true" signature="15377:15482" placeholder="{...}" />
+                  <marker date="1463085697032" expanded="true" signature="15545:15617" placeholder="{...}" />
+                  <marker date="1463085697032" expanded="true" signature="15641:15733" placeholder="{...}" />
+                  <marker date="1463085697032" expanded="true" signature="15687:15727" placeholder="{...}" />
+                </folding>
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -98,6 +157,19 @@
             <state relative-caret-position="270">
               <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="144">
+                <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -113,7 +185,6 @@
         <option value="$PROJECT_DIR$/src/parsers/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/src/parsers/NonogramsParser.cpp" />
         <option value="$PROJECT_DIR$/src/resources/main.qml" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/ui/Application.h" />
         <option value="$PROJECT_DIR$/src/ui/Application.cpp" />
         <option value="$PROJECT_DIR$/src/ui/CMakeLists.txt" />
@@ -125,13 +196,17 @@
         <option value="$PROJECT_DIR$/CMakeLists.txt" />
         <option value="$PROJECT_DIR$/src/Utils.cpp" />
         <option value="$PROJECT_DIR$/src/ui/CrosswordModel.cpp" />
+        <option value="$PROJECT_DIR$/src/resources/Nonogram.qml" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/habr/part1.md" />
       </list>
     </option>
   </component>
-  <component name="JsBuildToolGruntFileManager" detection-done="true" />
-  <component name="JsBuildToolPackageJson" detection-done="true" />
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsGulpfileManager">
     <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
     <option name="width" value="1366" />
@@ -144,7 +219,7 @@
     <OptionsSetting value="true" id="Update" />
     <OptionsSetting value="true" id="Status" />
     <OptionsSetting value="true" id="Edit" />
-    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="1" id="Add" />
     <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
@@ -177,6 +252,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="yang" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yang" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yang" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="yang" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -187,46 +276,14 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="yang" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yang" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewModuleNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="yang" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ui" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yang" />
-              <option name="myItemType" value="com.jetbrains.cidr.projectView.CidrFilesViewHelper$MyProjectTreeStructure$1" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="yang" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="core" />
+              <option name="myItemId" value="habr" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -240,7 +297,7 @@
     <property name="settings.editor.selected.configurable" value="CPPToolchains" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
   </component>
-  <component name="RunManager" selected="Application.Build All">
+  <component name="RunManager" selected="Application.yang">
     <configuration default="true" type="CMakeGoogleTestRunConfigurationType" factoryName="Google Test" PASS_PARENT_ENVS_2="true" PROJECT_NAME="yang" TARGET_NAME="gumbo-parser" CONFIG_NAME="Debug" TEST_MODE="SUITE_TEST">
       <envs />
       <method />
@@ -414,10 +471,6 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="yang" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="yajc" TARGET_NAME="yang" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="yajc" RUN_TARGET_NAME="yang">
-      <envs />
-      <method />
-    </configuration>
     <configuration default="false" name="yang_automoc" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="yajc" TARGET_NAME="yang_automoc" CONFIG_NAME="Debug">
       <envs />
       <method />
@@ -454,20 +507,26 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="false" name="yang" type="CMakeRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="yang" TARGET_NAME="yang" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="yang" RUN_TARGET_NAME="yang">
+      <envs>
+        <env name="LD_LIBRARY_PATH" value="/home/dmitry/Qt/5.6/gcc_64/lib" />
+      </envs>
+      <method />
+    </configuration>
     <list size="13">
       <item index="0" class="java.lang.String" itemvalue="Application.Build All" />
       <item index="1" class="java.lang.String" itemvalue="Application.gumbo-parser" />
       <item index="2" class="java.lang.String" itemvalue="Application.gumbo-parser_automoc" />
-      <item index="3" class="java.lang.String" itemvalue="Application.yang" />
-      <item index="4" class="java.lang.String" itemvalue="Application.yang_automoc" />
-      <item index="5" class="java.lang.String" itemvalue="Application.core" />
-      <item index="6" class="java.lang.String" itemvalue="Application.core_automoc" />
-      <item index="7" class="java.lang.String" itemvalue="Application.parsers" />
-      <item index="8" class="java.lang.String" itemvalue="Application.parsers_automoc" />
-      <item index="9" class="java.lang.String" itemvalue="Application.resources" />
-      <item index="10" class="java.lang.String" itemvalue="Application.resources_automoc" />
-      <item index="11" class="java.lang.String" itemvalue="Application.ui" />
-      <item index="12" class="java.lang.String" itemvalue="Application.ui_automoc" />
+      <item index="3" class="java.lang.String" itemvalue="Application.yang_automoc" />
+      <item index="4" class="java.lang.String" itemvalue="Application.core" />
+      <item index="5" class="java.lang.String" itemvalue="Application.core_automoc" />
+      <item index="6" class="java.lang.String" itemvalue="Application.parsers" />
+      <item index="7" class="java.lang.String" itemvalue="Application.parsers_automoc" />
+      <item index="8" class="java.lang.String" itemvalue="Application.resources" />
+      <item index="9" class="java.lang.String" itemvalue="Application.resources_automoc" />
+      <item index="10" class="java.lang.String" itemvalue="Application.ui" />
+      <item index="11" class="java.lang.String" itemvalue="Application.ui_automoc" />
+      <item index="12" class="java.lang.String" itemvalue="Application.yang" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
@@ -495,47 +554,49 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1366" height="735" extended-state="6" />
+    <frame x="0" y="0" width="1366" height="735" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32866043" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13308823" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286385" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286385" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3286385" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32866043" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286385" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="CMake" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286385" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3286385" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.13308823" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="LuaJ" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -566,13 +627,25 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/core/Crossword.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Utils.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/parsers/NonogramsCrosswordGalleryParser.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -580,9 +653,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1854">
           <caret line="103" column="76" selection-start-line="103" selection-start-column="76" selection-end-line="103" selection-end-column="76" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -590,7 +660,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -598,7 +667,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
           <caret line="35" column="23" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -606,9 +674,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1854">
           <caret line="103" column="76" selection-start-line="103" selection-start-column="76" selection-end-line="103" selection-end-column="76" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -630,9 +695,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
           <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -654,9 +716,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -752,23 +811,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="162">
-            <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/resources/Nonogram.qml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/resources/main.qml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="648">
@@ -776,13 +818,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file:///usr/include/qt5/QtCore/qabstractitemmodel.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="228" column="17" selection-start-line="228" selection-start-column="17" selection-end-line="228" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file:///usr/include/qt5/QtCore/qabstractitemmodel.h" />
     <entry file="file://$PROJECT_DIR$/src/ui/Application.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -795,7 +831,7 @@
         <state relative-caret-position="324">
           <caret line="18" column="40" selection-start-line="18" selection-start-column="30" selection-end-line="18" selection-end-column="40" />
           <folding>
-            <element signature="e#0#28#0" expanded="true" />
+            <element signature="e#0#28#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -867,24 +903,57 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="368">
           <caret line="35" column="23" selection-start-line="35" selection-start-column="15" selection-end-line="35" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/parsers/NonogramsCrosswordGalleryParser.cpp">
+    <entry file="file://$PROJECT_DIR$/src/ui/CrosswordModel.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="548">
-          <caret line="103" column="76" selection-start-line="103" selection-start-column="76" selection-end-line="103" selection-end-column="76" />
-          <folding>
-            <element signature="e#0#20#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="299">
+          <caret line="66" column="25" selection-start-line="66" selection-start-column="17" selection-end-line="66" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ui/CrosswordModel.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="72" column="19" selection-start-line="72" selection-start-column="9" selection-end-line="72" selection-end-column="19" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/core/Crossword.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="381">
+        <state relative-caret-position="8">
           <caret line="52" column="4" selection-start-line="52" selection-start-column="4" selection-end-line="52" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/parsers/NonogramsCrosswordGalleryParser.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1718">
+          <caret line="103" column="76" selection-start-line="103" selection-start-column="76" selection-end-line="103" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Utils.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="22" column="7" selection-start-line="22" selection-start-column="7" selection-end-line="22" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/core/Size.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="6" column="12" selection-start-line="6" selection-start-column="4" selection-end-line="6" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/resources/Nonogram.qml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="7" selection-start-line="1" selection-start-column="7" selection-end-line="1" selection-end-column="23" />
           <folding />
         </state>
       </provider>
@@ -897,27 +966,115 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Utils.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="19" column="9" selection-start-line="19" selection-start-column="9" selection-end-line="19" selection-end-column="9" />
-          <folding />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="144">
+            <caret line="8" column="7" selection-start-line="8" selection-start-column="7" selection-end-line="8" selection-end-column="7" />
+            <folding />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/ui/CrosswordModel.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="471">
-          <caret line="72" column="19" selection-start-line="72" selection-start-column="9" selection-end-line="72" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ui/CrosswordModel.cpp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="66" column="25" selection-start-line="66" selection-start-column="17" selection-end-line="66" selection-end-column="25" />
-          <folding />
+    <entry file="file://$PROJECT_DIR$/habr/part1.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="254">
+            <caret line="540" column="3" selection-start-line="540" selection-start-column="3" selection-end-line="540" selection-end-column="3" />
+            <folding>
+              <marker date="1463085697032" expanded="true" signature="1225:1287" placeholder="[...]" />
+              <marker date="1463085697032" expanded="true" signature="3184:3499" placeholder="{...}" />
+              <marker date="1463085697032" expanded="true" signature="3184:3592" placeholder="{...}" />
+              <marker date="1463085697032" expanded="true" signature="3184:3617" placeholder="{...}" />
+              <marker date="1463085697032" expanded="true" signature="3184:3619" placeholder="{...}" />
+              <marker date="1463085697032" expanded="true" signature="3184:3620" placeholder="{...}" />
+              <marker date="1463085697032" expanded="true" signature="3184:3624" placeholder="{...}" />
+              <marker date="1463085697032" expanded="true" signature="3297:3306" placeholder="/*...*/" />
+              <marker date="1463085697032" expanded="true" signature="3317:3487" placeholder="{...}" />
+              <marker date="1463085697032" expanded="true" signature="3602:3611" placeholder="/*...*/" />
+              <marker date="1463085697032" expanded="true" signature="3750:4072" placeholder="{...}" />
+              <marker date="1463085697032" expanded="true" signature="3750:4090" placeholder="{...}" />
+              <marker date="1463085697032" expanded="true" signature="3750:4126" placeholder="{...}" />
+              <marker date="1463085697032" expanded="true" signature="3750:4148" placeholder="{...}" />
+              <marker date="1463085697032" expanded="true" signature="3750:4191" placeholder="{...}" />
+              <marker date="1463085697032" expanded="true" signature="3750:4197" placeholder="{...}" />
+              <marker date="1463085697032" expanded="true" signature="3876:4018" placeholder="{...}" />
+              <marker date="1463085697032" expanded="true" signature="4008:4017" placeholder="/*...*/" />
+              <marker date="1463085697032" expanded="true" signature="4025:4072" placeholder="{...}" />
+              <marker date="1463085697032" expanded="true" signature="4062:4071" placeholder="/*...*/" />
+              <marker date="1463085697032" expanded="true" signature="4079:4090" placeholder="{...}" />
+              <marker date="1463085697032" expanded="true" signature="4116:4125" placeholder="/*...*/" />
+              <marker date="1463085697032" expanded="true" signature="4133:4148" placeholder="{...}" />
+              <marker date="1463085697032" expanded="true" signature="4181:4190" placeholder="/*...*/" />
+              <marker date="1463085697032" expanded="true" signature="4408:5089" placeholder="{...}" />
+              <marker date="1463085697032" expanded="true" signature="4479:5087" placeholder="{...}" />
+              <marker date="1463085697032" expanded="true" signature="4511:4520" placeholder="/*...*/" />
+              <marker date="1463085697032" expanded="true" signature="4534:5081" placeholder="{...}" />
+              <marker date="1463085697032" expanded="true" signature="4603:5071" placeholder="{...}" />
+              <marker date="1463085697032" expanded="true" signature="4803:5057" placeholder="{...}" />
+              <marker date="1463085697032" expanded="true" signature="4910:5039" placeholder="{...}" />
+              <marker date="1463085697032" expanded="true" signature="5897:7418" placeholder="{...}" />
+              <marker date="1463085697032" expanded="true" signature="6082:6309" placeholder="{...}" />
+              <marker date="1463085697032" expanded="true" signature="6319:6589" placeholder="{...}" />
+              <marker date="1463085697032" expanded="true" signature="6605:6920" placeholder="{...}" />
+              <marker date="1463085697032" expanded="true" signature="6655:6914" placeholder="{...}" />
+              <marker date="1463085697032" expanded="true" signature="6698:6754" placeholder="{...}" />
+              <marker date="1463085697032" expanded="true" signature="6787:6842" placeholder="{...}" />
+              <marker date="1463085697032" expanded="true" signature="6846:6903" placeholder="{...}" />
+              <marker date="1463085697032" expanded="true" signature="6934:7037" placeholder="[...]" />
+              <marker date="1463085697032" expanded="true" signature="6949:7037" placeholder="{&quot;name&quot;: &quot;SHADED&quot;...}" />
+              <marker date="1463085697032" expanded="true" signature="7005:7037" placeholder="{...}" />
+              <marker date="1463085697032" expanded="true" signature="7097:7160" placeholder="{...}" />
+              <marker date="1463085697032" expanded="true" signature="7185:7410" placeholder="{...}" />
+              <marker date="1463085697032" expanded="true" signature="7240:7309" placeholder="{...}" />
+              <marker date="1463085697032" expanded="true" signature="7338:7400" placeholder="{...}" />
+              <marker date="1463085697032" expanded="true" signature="7849:15735" placeholder="{...}" />
+              <marker date="1463085697032" expanded="true" signature="8304:8386" placeholder="{...}" />
+              <marker date="1463085697032" expanded="true" signature="8432:8474" placeholder="{...}" />
+              <marker date="1463085697032" expanded="true" signature="8504:9053" placeholder="{...}" />
+              <marker date="1463085697032" expanded="true" signature="8596:8627" placeholder="{...}" />
+              <marker date="1463085697032" expanded="true" signature="9064:9234" placeholder="{...}" />
+              <marker date="1463085697032" expanded="true" signature="9245:15319" placeholder="{...}" />
+              <marker date="1463085697032" expanded="true" signature="9405:9620" placeholder="{...}" />
+              <marker date="1463085697032" expanded="true" signature="9635:10892" placeholder="{...}" />
+              <marker date="1463085697032" expanded="true" signature="9738:10882" placeholder="{...}" />
+              <marker date="1463085697032" expanded="true" signature="9816:10868" placeholder="{...}" />
+              <marker date="1463085697032" expanded="true" signature="10114:10850" placeholder="{...}" />
+              <marker date="1463085697032" expanded="true" signature="10449:10827" placeholder="{...}" />
+              <marker date="1463085697032" expanded="true" signature="10660:10801" placeholder="{...}" />
+              <marker date="1463085697032" expanded="true" signature="10907:12183" placeholder="{...}" />
+              <marker date="1463085697032" expanded="true" signature="11005:12173" placeholder="{...}" />
+              <marker date="1463085697032" expanded="true" signature="11083:12159" placeholder="{...}" />
+              <marker date="1463085697032" expanded="true" signature="11383:12141" placeholder="{...}" />
+              <marker date="1463085697032" expanded="true" signature="11744:12119" placeholder="{...}" />
+              <marker date="1463085697032" expanded="true" signature="11952:12093" placeholder="{...}" />
+              <marker date="1463085697032" expanded="true" signature="12202:15313" placeholder="{...}" />
+              <marker date="1463085697032" expanded="true" signature="12423:15303" placeholder="{...}" />
+              <marker date="1463085697032" expanded="true" signature="12508:15289" placeholder="{...}" />
+              <marker date="1463085697032" expanded="true" signature="12610:15271" placeholder="{...}" />
+              <marker date="1463085697032" expanded="true" signature="12915:13282" placeholder="{...}" />
+              <marker date="1463085697032" expanded="true" signature="13312:13782" placeholder="{...}" />
+              <marker date="1463085697032" expanded="true" signature="13818:14353" placeholder="{...}" />
+              <marker date="1463085697032" expanded="true" signature="13908:14327" placeholder="{...}" />
+              <marker date="1463085697032" expanded="true" signature="13971:14067" placeholder="{...}" />
+              <marker date="1463085697032" expanded="true" signature="14100:14195" placeholder="{...}" />
+              <marker date="1463085697032" expanded="true" signature="14199:14296" placeholder="{...}" />
+              <marker date="1463085697032" expanded="true" signature="14387:14570" placeholder="[...]" />
+              <marker date="1463085697032" expanded="true" signature="14422:14570" placeholder="{&quot;name&quot;: &quot;SHADED&quot;...}" />
+              <marker date="1463085697032" expanded="true" signature="14518:14570" placeholder="{...}" />
+              <marker date="1463085697032" expanded="true" signature="14670:14773" placeholder="{...}" />
+              <marker date="1463085697032" expanded="true" signature="14838:15223" placeholder="{...}" />
+              <marker date="1463085697032" expanded="true" signature="14933:15042" placeholder="{...}" />
+              <marker date="1463085697032" expanded="true" signature="15091:15193" placeholder="{...}" />
+              <marker date="1463085697032" expanded="true" signature="15329:15623" placeholder="{...}" />
+              <marker date="1463085697032" expanded="true" signature="15377:15482" placeholder="{...}" />
+              <marker date="1463085697032" expanded="true" signature="15545:15617" placeholder="{...}" />
+              <marker date="1463085697032" expanded="true" signature="15641:15733" placeholder="{...}" />
+              <marker date="1463085697032" expanded="true" signature="15687:15727" placeholder="{...}" />
+            </folding>
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>

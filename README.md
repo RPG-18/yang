@@ -6,4 +6,4 @@ Yang is the prototype for the client nanograms.org
 
 * Qt 5.6
 * cmake 3.3
-
+* C++14

@@ -150,11 +150,12 @@
     <orderEntry type="module-library">
       <library name="Header Search Paths">
         <CLASSES>
-          <root url="file:///usr/include" />
-          <root url="file:///usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64" />
           <root url="file:///usr/lib/gcc/x86_64-linux-gnu/4.9/include" />
           <root url="file:///usr/lib/gcc/x86_64-linux-gnu/4.9/include-fixed" />
+          <root url="file:///usr/include" />
           <root url="file:///usr/local/include" />
+          <root url="file://$USER_HOME$/Qt/5.6/gcc_64/include" />
+          <root url="file://$USER_HOME$/Qt/5.6/gcc_64/mkspecs/linux-g++" />
           <root url="file://$USER_HOME$/.CLion2016.1/system/cmake/generated/yang-c7f32b2a/c7f32b2a/Release/src" />
           <root url="file://$USER_HOME$/.CLion2016.1/system/cmake/generated/yang-c7f32b2a/c7f32b2a/Release/3rdparty/gumbo-parser/src" />
           <root url="file://$USER_HOME$/.CLion2016.1/system/cmake/generated/yang-c7f32b2a/c7f32b2a/Debug/src" />
@@ -165,11 +166,12 @@
           <root url="file://$USER_HOME$/.CLion2016.1/system/cmake/generated/yang-c7f32b2a/c7f32b2a/MinSizeRel/3rdparty/gumbo-parser/src" />
         </CLASSES>
         <SOURCES>
-          <root url="file:///usr/include" />
-          <root url="file:///usr/lib/x86_64-linux-gnu/qt5/mkspecs/linux-g++-64" />
           <root url="file:///usr/lib/gcc/x86_64-linux-gnu/4.9/include" />
           <root url="file:///usr/lib/gcc/x86_64-linux-gnu/4.9/include-fixed" />
+          <root url="file:///usr/include" />
           <root url="file:///usr/local/include" />
+          <root url="file://$USER_HOME$/Qt/5.6/gcc_64/include" />
+          <root url="file://$USER_HOME$/Qt/5.6/gcc_64/mkspecs/linux-g++" />
           <root url="file://$USER_HOME$/.CLion2016.1/system/cmake/generated/yang-c7f32b2a/c7f32b2a/Release/src" />
           <root url="file://$USER_HOME$/.CLion2016.1/system/cmake/generated/yang-c7f32b2a/c7f32b2a/Release/3rdparty/gumbo-parser/src" />
           <root url="file://$USER_HOME$/.CLion2016.1/system/cmake/generated/yang-c7f32b2a/c7f32b2a/Debug/src" />
