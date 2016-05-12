@@ -50,6 +50,7 @@ void Crossword::formNanogramsOrg(const QByteArray& data)
     NonogramsParser parser;
     parser.fromBytes(data);
 
+	m_column.clear();
     m_column.reserve(parser.column().size());
 
     using size_type = QVector<QVector<quint8>>::size_type;
@@ -58,6 +59,7 @@ void Crossword::formNanogramsOrg(const QByteArray& data)
         m_column.push_back(Column(parser.column()[c]));
     }
 
+	m_rows.clear();
     m_rows.reserve(parser.rows().size());
     for (size_type r = 0; r < parser.rows().size(); ++r)
     {
